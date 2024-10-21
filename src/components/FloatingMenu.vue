@@ -45,7 +45,7 @@ watch(showMenu, (newValue) => {
 
 <style scoped>
 .menus-enter-active, .menus-leave-active {
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
 .menus-enter-from, .menus-leave-to {
@@ -59,7 +59,7 @@ watch(showMenu, (newValue) => {
 }
 
 .icon-enter-active, .icon-leave-active {
-  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
 .icon-enter-from, .icon-leave-to {
