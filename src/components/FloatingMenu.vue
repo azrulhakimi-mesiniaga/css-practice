@@ -30,14 +30,16 @@ watch(showMenu, (newValue) => {
         </div>
       </transition>
     </div>
-    <div class="absolute top-[-300px] flex flex-col gap-2 hover:scale-100">
+    <div class="absolute top-[-300px] flex flex-col gap-2">
       <transition-group name="menus">
         <div
           v-for="index in circles"
           :key="index"
-          class="h-16 w-16 bg-green-500 rounded-full"
+          class="h-16 w-16 bg-green-500 rounded-full cursor-pointer flex justify-center items-center group"
           :style="{ transitionDelay: `${(3 - index) * 40}ms` }"
-        ></div>
+        >
+          <span class="group-hover:scale-110 transition-all duration-300">HE</span>
+        </div>
       </transition-group>
     </div>
   </div>

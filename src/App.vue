@@ -5,16 +5,16 @@ import FloatingMenu from './components/FloatingMenu.vue';
 </script>
 
 <template>
-  <!-- <div class="relative flex gap-4 items-center">
+  <div class="relative flex gap-4 items-center">
     <BlurredCard />
     <BlurredCard />
-  </div> -->
+  </div>
 
   <!-- <div>
     <HoverList />
   </div> -->
 
-  <div>
+  <div class="fixed bottom-12 right-12">
     <FloatingMenu></FloatingMenu>
   </div>
 </template>
